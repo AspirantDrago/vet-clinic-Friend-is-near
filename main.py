@@ -31,11 +31,6 @@ def get_locale():
   return 'ru'
 
 
-@vue_js_bp.route('/')
-def index():
-  return render_template('index.html')
-
-
 @login_manager.user_loader
 def load_user(user_id):
   return session.query(User).get(user_id)

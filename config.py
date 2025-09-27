@@ -7,7 +7,7 @@ from data.services import Services
 db_session.global_init("db/database.sqlite")
 session = db_session.create_session()
 HOST = '0.0.0.0'
-PORT = 80
+PORT = 5000
 DEBUG = False
 SECRET_KEY = 'friend'
 REMEMBER_USER = True

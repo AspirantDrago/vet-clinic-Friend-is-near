@@ -31,7 +31,7 @@ export default {
 </script>
 
 <style scoped lang="scss">
-  @import "src/assets/scss/utils/vars";
+  @import "@/assets/scss/utils/vars";
 
   $breadcrumbs_gray: #6b6b6b;
 

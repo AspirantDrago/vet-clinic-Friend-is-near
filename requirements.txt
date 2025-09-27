@@ -1,8 +1,7 @@
-Flask
-Flask-Login
-SQLAlchemy
-alembic
-Flask-Admin
-flask-babelex
-waitress
-sqlalchemy-serializer
+Flask~=2.3.3
+Flask-Login~=0.6.3
+SQLAlchemy==2.0.29
+Flask-Admin~=1.6.1
+flask-babelex~=0.9.4
+waitress~=3.0.2
+sqlalchemy-serializer~=1.4.22

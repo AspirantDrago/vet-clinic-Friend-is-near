@@ -16,6 +16,8 @@ export const store = createStore({
         console.log(response.data, this)
         commit('updateServices', response.data.services)
         commit('changeLoadingServicesState', false)
+      }).catch((error) => {
+        console.log(error)
       })
     }
   },

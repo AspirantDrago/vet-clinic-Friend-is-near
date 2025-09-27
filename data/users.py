@@ -21,7 +21,7 @@ class User(SqlAlchemyBase, UserMixin):
     role_id = sqlalchemy.Column(sqlalchemy.Integer,
                                 sqlalchemy.ForeignKey("roles.id"),
                                 nullable=False, default=3)
-    role = orm.relation('Roles', backref='users')
+    role = orm.relationship('Roles', backref='users')
 
     def set_password(self, password):
         self.hashed_password = generate_password_hash(password)
