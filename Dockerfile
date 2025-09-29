@@ -15,7 +15,7 @@ RUN pip install --upgrade pip \
 
 COPY package*.json ./
 
-RUN npm install
+RUN npm ci --omit=dev
 
 COPY . .
 

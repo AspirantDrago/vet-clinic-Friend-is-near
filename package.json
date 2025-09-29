@@ -24,18 +24,18 @@
     "vue3-carousel": "^0.16.0",
     "vuex": "^4.1.0",
     "vue-cookies": "^1.8.6",
-    "axios": "^1.12.2"
+    "axios": "^1.12.2",
+    "@vue/cli-service": "~5.0.9",
+    "sass-embedded": "^1.93.2",
+    "sass-loader": "^16.0.5"
   },
   "devDependencies": {
     "@babel/core": "^7.28.4",
     "@babel/eslint-parser": "^7.28.4",
     "@vue/cli-plugin-babel": "~5.0.9",
     "@vue/cli-plugin-eslint": "~5.0.9",
-    "@vue/cli-service": "~5.0.9",
     "@vue/compiler-sfc": "3.5.22",
-    "eslint-plugin-vue": "^9.33.0",
-    "sass-embedded": "^1.93.2",
-    "sass-loader": "^16.0.5"
+    "eslint-plugin-vue": "^9.33.0"
   },
   "eslintConfig": {
     "root": true,
