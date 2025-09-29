@@ -1,4 +1,8 @@
 .dist/
 .venv/
+.idea/
 dist/
+node_modules/
 Procfile
+.editorconfig
+.gitignore
